@@ -1,13 +1,14 @@
 algoritmo "Estrutura SE"
 
-var entrega:logica
+var entrega: logico
 
 inicio
 
-    escreval("deseja que seu pedido seja entregue? ")
+    escreval("deseja que seu pedido seja entregue? 0 para não e 1 para sim")
     leia(entrega)
     escreval(entrega)
-    se entrega = 0 faca
+    
+    se entrega = 0 faca 
         escreva("O usuário não optou pela entrega")
     fimse
 
