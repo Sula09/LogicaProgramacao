@@ -1,0 +1,81 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+
+html,body{ 
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.logo{
+    display: flex;
+    scrollbar-width: thin;
+    box-sizing: inherit;
+    justify-content: left;
+}
+
+header{
+    height: 200px;
+    background-color: #00875a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.cupom{
+    color: bisque;
+    font-family: arial;
+    margin-left: 100px;
+}
+
+.Starbucks{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 80px;
+}
+
+.hero{
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+section.sobre{
+    height: calc(100px -200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute ;
+    bottom: -100px;
+    right: -30%;
+    width: 700px;
+    height: 670px;
+    border-radius: 1000%;
+    background-color: #00875a;
+}
+
+.btn{ display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    background-color: #00875a;
+    color: #fff;
+    text-decoration: none;
+    text-align: left
+}

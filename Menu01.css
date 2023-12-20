@@ -1,0 +1,41 @@
+*{
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menu{
+    text-align: center;
+    padding:50px;
+}
+
+.menu h2{
+    color: green;
+    margin-bottom: 50px;
+}
+
+.menu-category{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.menu-category h3{
+    color: #333;
+    padding:30px;
+}
+
+.menu-category ul{
+    list-style: none;
+    padding: 30px;
+}
+
+.menu-category a{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    background-color: #00875a;
+    color: #fff;
+    text-decoration: none;
+    text-align: left
+}
